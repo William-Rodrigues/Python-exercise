@@ -13,7 +13,7 @@ POR FAVOR, INSIRA A NOTA DO ALUNO DE NÚMERO x."""
 TotalImpar = []
 TotalPar = []
 
-print("VOCÊ ESTÁ DIGITANDO A NOTA DOS ALUNOS DE NÚMEROS ÍMPARES:VOCÊ ESTÁ DIGITANDO A NOTA DOS ALUNOS DE NÚMEROS ÍMPARES:")
+print("VOCÊ ESTÁ DIGITANDO A NOTA DOS ALUNOS DE NÚMEROS ÍMPARES:")
 for AlunosImpares in range(1,50,2):
     NotasImpar = float(input(f"Por favor insira a nota do aluno de número {AlunosImpares}:"))
     TotalImpar.append(NotasImpar) 
