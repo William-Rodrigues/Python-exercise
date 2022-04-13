@@ -1,3 +1,8 @@
+"""Enunciado: Você deve elaborar um algoritmo implementado em Python em que o usuário informe quantos alimentos consumiu 
+naquele dia e depois possa informar o número de calorias de cada um dos alimentos. 
+Como não estudamos listas neste capítulo, você não deve se preocupar em armazenar todas as calorias digitadas, 
+mas deve exibir o total de calorias no final."""
+
 #Define a quantidade de alimentos que devera ser contada no for
 
 alimentos = int(input("Insira quantos alimentos você consumiu no dia de hoje: "))

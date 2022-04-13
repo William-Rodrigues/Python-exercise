@@ -1,4 +1,8 @@
-
+"""Enunciado: Hora de decidir! Os colaboradores da sua equipe foram sorteados para ganhar um console de última geração,
+cada um, em razão do bom desempenho que tiveram nos últimos projetos. Por uma questão de logística, porém, a empresa pede que
+todos os cinco membros da equipe recebam o mesmo aparelho. Crie um algoritmo onde o usuário possa digitar o voto de cada um
+dos 5 membros da equipe e, ao final, exiba qual foi o console escolhido e com quantos votos. 
+As opções são: PLAYSTATION, XBOX e NINTENDO."""
 
 print("A empresa pediu para que vocês 5 votem qual console vocês desejam ganhar, o mais votado será o que todos vão receber.")
 print("As Opções de console são: Playstation, Xbox e Nintendo. Por favor escreva o nome conforme foi exibido nesta frase. ")

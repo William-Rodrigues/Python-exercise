@@ -1,4 +1,8 @@
-from timeit import repeat
+"""Enunciado: 1 – Verificar se os batimentos cardíacos por minuto se encontram na faixa adequada. 
+Para isso, você deve solicitar ao usuário que informe o seu número de BATIMENTOS POR MINUTO (BPM) e a IDADE. 
+A partir disso, o script deve verificar e exibir uma mensagem informando se os batimentos do usuário encontram-se DENTRO da faixa adequada,
+ACIMA da faixa adequada ou ABAIXO da faixa adequada, de acordo com o site Tua Saúde 
+(https://www.tuasaude.com/frequencia-cardiaca/#:~:text=At%C3%A9%202%20anos%20de%20idade,idosos%3A%2050%20a%2060%20bpm):"""
 
 
 bpm = int(input("Digite os batimentos: "))

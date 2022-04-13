@@ -1,5 +1,10 @@
-#Recebe a quantidade de transações que será realizada.
+"""Enunciado: Observando o mercado de educação infantil, você e sua equipe decidem criar um aplicativo por meio do qual as
+crianças aprendam a controlar os seus gastos. Como forma de validar um protótipo, foi solicitado que você crie um script simples,
+em que o usuário deve informar QUANTAS TRANSAÇÕES financeiras realizou ao longo de um dia e, na sequência, deve informar o 
+VALOR DE CADA UMA das transações que realizou. 
+Seu programa deverá exibir, ao final, o valor total gasto pelo usuário, bem como a média do valor de cada transação."""
 
+#Recebe a quantidade de transações que será realizada.
 Qtdtransacao = int(input("Digite a quantidade de transações que foram realizadas em um dia: "))
 ValorTransacao = 0.0
 Qtdtransacao2 = Qtdtransacao

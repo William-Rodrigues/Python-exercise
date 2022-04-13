@@ -8,6 +8,7 @@ Silver 20%
 Gold = 10%
 Platinum = 5% """
 
+#Recebe o tipo de assinatura em STRING.
 Assinatura = str(input("Digite o  tipo de sua assinatura: "))
 Faturamento = float(input("Digite o valor do seu faturamento: "))
 calcBasic = Faturamento * 30 / 100
@@ -15,6 +16,7 @@ calcSilver = Faturamento * 20 / 100
 calcGold = Faturamento * 10 / 100
 calcPlatinum = Faturamento * 5 / 100
 
+#Capitalize padroniza o texto digitado em assinatura para entrar no IF
 if Assinatura.capitalize() == "Basic":
     print(f"O valor do seu faturamento anual foi de R${Faturamento:.2f}, o seu plano é o Basic conforme contrato a comissão a ser paga é de 30% do seu faturamento anual, que será no valor de R${calcBasic:.2f}.")
 if Assinatura.capitalize() == "Silver":
