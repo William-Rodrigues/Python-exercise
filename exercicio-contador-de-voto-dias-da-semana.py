@@ -2,6 +2,7 @@
 Desenvolva um programa em que o usuário informe a quantidade de votos que cada um dos 5 dias da semana
 (segunda-feira, terça-feira, quarta-feira, quinta-feira e sexta-feira) obtiveram, verifique e exiba qual dia foi o escolhido."""
 
+#Recebe a quantidade de pessoas que votaram em cada dia da semana
 Segunda = int(input("Informe a quantidade de pessoas que votaram na segunda-feira: "))
 Terca = int(input("Informe a quantidade de pessoas que votaram na terça-feira: "))
 Quarta = int(input("Informe a quantidade de pessoas que votaram na quarta-feira: "))

@@ -24,4 +24,4 @@ if Assinatura.capitalize() == "Silver":
 if Assinatura.capitalize() == "Gold":
     print(f"O valor do seu faturamento anual foi de R${Faturamento:.2f}, o seu plano é o Gold conforme contrato a comissão a ser paga é de 10% do seu faturamento anual, que será no valor de R${calcGold:.2f}.")
 if Assinatura.capitalize() == "Platinum":
-    print(f"O valor do seu faturamento anual foi de R${Faturamento:.2f}, o seu plano é o Platinum conforme contrato a comissão a ser paga é de 5% do seu faturamento anual, que será no valor de R${calcSilver:.2f}.")
+    print(f"O valor do seu faturamento anual foi de R${Faturamento:.2f}, o seu plano é o Platinum conforme contrato a comissão a ser paga é de 5% do seu faturamento anual, que será no valor de R${calcPlatinum:.2f}.")

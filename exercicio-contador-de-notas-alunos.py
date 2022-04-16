@@ -33,5 +33,5 @@ if MediaTurmaImpar > MediaTurmaPar:
     print(f"A Média dos alunos Ímpar foi maior que da turma par: {MediaTurmaImpar}")
 elif MediaTurmaPar > MediaTurmaImpar:
     print(f"A Média dos alunos Par foi maior que da turma ímpar: {MediaTurmaPar}")
-else: #MediaTurmaPar == MediaTurmaImpar:
+elif MediaTurmaPar == MediaTurmaImpar:
     print(f"Houve um empate entre a média das turmas Par e Ímpar")
